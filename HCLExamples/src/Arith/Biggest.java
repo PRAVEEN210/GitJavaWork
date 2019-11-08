@@ -12,15 +12,15 @@ public class Biggest {
 	        z = s.nextInt();
 	        if(x > y && x > z)
 	        {
-	            System.out.println("Largest number is:"+x);
+	            System.out.println("Biggest number is:"+x);
 	        }
 	        else if(y > z)
 	        {
-	            System.out.println("Largest number is:"+y);
+	            System.out.println("Biggest number is:"+y);
 	        }
 	        else
 	        {
-	            System.out.println("Largest number is:"+z);
+	            System.out.println("Biggest number is:"+z);
 	        }
 	 
 	    }
