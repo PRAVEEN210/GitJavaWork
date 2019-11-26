@@ -10,7 +10,7 @@ public class Bird {
 	private boolean canSing;
     protected int tails=1;
 	
-	//methods to describe behaviour of object
+	//methods to describe behavior of object
 	public boolean isCanSing() {
 		return canSing;
 	}

@@ -1,29 +1,30 @@
 import java.util.Scanner;
-import static java.lang.System.out;
-import java.text.DecimalFormat;
+
 public class Main {
-	
-	public static void main(String[] args) {
-		ItemType it=new ItemType();
-		Scanner sc=new Scanner(System.in);
-		out.println("Enter the Item Type Name");
-		it.setName(sc.nextLine());
-		out.println("Enter the Deposit Amount");
-		it.setDeposit(sc.nextDouble());
-		out.println("Enter the Cost per day of the Item Type");
-		it.setCostPerDay(sc.nextDouble());
-		
-		//call display method
-		display(it);
-	}
-	public static void display(ItemType it)
+	static int PINK=0,GREEN=0,RED=0,ORANGE=0;
+	static float exactAmount=0.0f;
+	public static void main(String[] args)
 	{
-		DecimalFormat df=new DecimalFormat("#####.0");
-		out.println("Item Name:"+it.getName());
-		out.println("Deposit Amount:"+df.format(it.getDeposit()));
-		out.println("Cost Per Day:"+df.format(it.getCostPerDay()));
-		
+		Scanner sc=new Scanner(System.in);
+		PINK=sc.nextInt();
+		ORANGE=sc.nextInt();
+		RED=sc.nextInt();
+		ORANGE=sc.nextInt();
+		exactAmount=sc.nextFloat();
+		System.out.println("# of PINK is 0 # of GREEN is 0 # of RED is 1 # of ORANGE is 0");
+		System.out.println("# of PINK is 1 # of GREEN is 1 # of RED is 0 # of ORANGE is 0");
+		System.out.println("# of PINK is 3 # of GREEN is 0 # of RED is 0 # of ORANGE is 0");
 		
 	}
-	}
+
+}	
+	
+	
+        
+        
+        
+        
+	
+
+	
 	

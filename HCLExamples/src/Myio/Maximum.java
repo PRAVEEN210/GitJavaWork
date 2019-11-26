@@ -1,0 +1,32 @@
+package Myio;
+import java.util.Scanner;
+public class Maximum {
+    
+	
+	
+	
+	    public static void main(String[] args) 
+	    {
+	        int x, y, z;
+	        Scanner sc = new Scanner(System.in);
+	        System.out.print("Enter the first number:");
+	        x = sc.nextInt();
+	        System.out.print("Enter the second number:");
+	        y = sc.nextInt();
+	        System.out.print("Enter the third number:");
+	        z = sc.nextInt();
+	        if(x > y && x > z)
+	        {
+	            System.out.println("Largest number is:"+x);
+	        }
+	        else if(y > z && y > x)
+	        {
+	            System.out.println("Largest number is:"+y);
+	        }
+	        else if(z > x && z > y)
+	        {
+	            System.out.println("Largest number is:"+z);
+	        }
+	 
+	    }
+}

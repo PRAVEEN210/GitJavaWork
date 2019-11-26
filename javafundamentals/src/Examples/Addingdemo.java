@@ -37,7 +37,7 @@ public class Addingdemo {
 			catch(Exception e)
 			{
 				//e.printStackTrace();
-				//system.out.println("Exception occured!");
+				//system.out.println("Exception occurred!"); 
 				throw new Myexception().handler();
 			}finally {
 				result=null;
