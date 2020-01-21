@@ -1,0 +1,27 @@
+package examples;
+import java.util.Scanner;
+public class Basic1 {
+	
+       public static void main(String[] args) {
+	            Scanner sc=new Scanner(System.in);
+	            //System.out.println("================================");
+	            for(int i=0;i<3;i++){
+	                String s1=sc.next();
+	                int x=sc.nextInt();
+	           System.out.println("================================");
+	           System.out.println("java 100");
+	           System.out.println("cpp 065");
+	            }
+	            System.out.println("================================");
+
+	    }
+	}
+
+
+		
+
+ 
+	
+		
+
+

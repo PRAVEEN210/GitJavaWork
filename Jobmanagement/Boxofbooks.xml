@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<box height="10" width="20">
+Carton
+<line length='2'/>
+<book title="Razor's Edge">10</book>
+
+</box>

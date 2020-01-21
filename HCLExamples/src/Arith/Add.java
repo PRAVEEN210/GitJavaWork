@@ -1,11 +1,13 @@
-package Arith;
-
-public class Add {
-	public static void main(String args[])
-	{
-		int a=5493;
-		int b=247;
-		System.out.println("sum=" +(a+b));
-	}
-
-}
+/*
+ * package Arith;
+ * 
+ * public class Add { public static void main(String args[]) { int j=50;
+ * while(true) {   if(j<10)      break;      j=j-10;  }
+ * System.out.println("j is  "+j);
+ * 
+ * 
+ * 
+ * }
+ * 
+ * }
+ */

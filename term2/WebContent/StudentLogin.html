@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Student Login</title>
+<link rel="stylesheet" type="text/css" href="Login.css" />
+<h1 align="center">
+	<font face="times new roman">Student Login</font>
+</h1>
+</head>
+<body>
+	<form >
+		
+		<table align="center">
+			<tr>
+				<td align="center">Name:<font color="red">*</font></td>
+				<td><input type="text" name="sname" placeholder="Name"/></td>
+			</tr>
+			<tr>
+				<td align="center">Address:<font color="red">*</font></td>
+				<td><textarea rows="5" cols="20" name="sadd" placeholder="Address"></textarea>
+			<tr>
+				<td align="center">Branch:<font color="red">*</font></td>
+				<td><select name="stdbranch">
+				<option value="ece">ECE</option>
+						<option value="it">IT</option>
+						<option value="cse">CSE</option>
+						<option value="eee">EEE</option>
+						
+				</select></td>
+			</tr>
+			<tr>
+				<td align="center">Date of Birth:<font color="red">*</font></td>
+				<td><input type="date" name="sdob" placeholder="dd-----yyyy" /></td>
+			</tr>
+			
+			<tr>
+				<td align="center">Phone number:<font color="red">*</font></td>
+				<td><input type="text" name="phoneno" required="required" placeholder="phonenumber"/></td>
+			</tr>
+			<tr>
+				<td align="center">Email:<font color="red">*</font></td>
+				<td><input type="text" name="semail" placeholder="Email"/></td>
+			</tr>
+			<tr>
+				<td align="center">Preferred way to contact you?:<font
+					color="red">*</font></td>
+				<td><input type="radio" name="stype" value="Email">E-mail<input
+					type="radio" name="stype" value="Phone">Phone<input
+					type="radio" name="stype" value="Post">Postal Mail</td>
+			</tr>
+			<tr>
+				<td align="center">State:<font color="red">*</font></td>
+				<td><select name="stdstate">
+				<option value="Andhra Pradesh">Andhra Pradesh-AP</option>
+						<option value="Karnataka">Karnataka-KA</option>
+						<option value="Tamil Nadu">Tamil Nadu-TN</option>
+						<option value="Telangana">Telangana-TS</option>
+						<option value="Others">Others</option>
+				</select></td>
+			</tr>
+			
+				<td align="right"><input type="submit" value="Submit"
+					name="submit" /></td>
+				<td align="center"><input type="submit" Value="Preview"
+					name="submit" /></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+
+<web-app>
+
+
+<servlet>
+
+<servlet-name>Praveen</servlet-name>
+
+<servlet-class>DemoServ</servlet-class>
+
+</servlet>
+
+
+<servlet-mapping>
+
+<servlet-name>Praveen</servlet-name>
+
+<url-pattern>/welcome</url-pattern>
+
+</servlet-mapping>
+
+</web-app>

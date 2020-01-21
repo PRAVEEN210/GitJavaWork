@@ -16,7 +16,7 @@ package examples;
 	  p.setCandidateGender(br.readLine());
 	  if(p.getCandidateGender().equalsIgnoreCase("female"))
 	  {
-	   System.out.println("Sorry..you are not eligible for this past!");
+	   System.out.println("Sorry..you are not eligible for this post!");
 	   System.exit(1);
 	  }else
 	  {
@@ -25,7 +25,7 @@ package examples;
 	  p.setAge(Byte.parseByte(br.readLine()));
 	  if(p.getAge()<20 || p.getAge()>50)
 	  {
-	   System.out.println("Sorry..you are not eligible for this past!");
+	   System.out.println("Sorry..you are not eligible for this post!");
 	   System.exit(1);
 	  }
 	  System.out.println("Enter units of weight:");
@@ -35,9 +35,9 @@ package examples;
 	  p.setWeight(Integer.parseInt(br.readLine()));
 	  if(choice==2)
 	  {
-	   p.setWeight(p.getWeight()*2.2046f);
+	   p.setWeight(p.getWeight()*2.2f);
 	  }
-	  System.out.println("Enter units of weight:");
+	  System.out.println("Enter units of height:");
 	  System.out.println("1.in cm\t2.in inches\nEnter units of your choice");
 	   choice=Integer.parseInt(br.readLine());
 	  System.out.println("Enter height :");
